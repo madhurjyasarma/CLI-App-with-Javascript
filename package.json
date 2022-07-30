@@ -1,0 +1,32 @@
+{
+  "name": "firequiz",
+  "version": "0.0.4",
+  "description": "Who wants to be a JavaScript millionaire?",
+  "homepage": "https://fireship.io",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireship-io/javascript-millionaire.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": {
+    "firequiz": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/fireship-io/javascript-millionaire/issues"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
