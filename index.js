@@ -30,7 +30,7 @@ async function welcome() {
 
   console.log(`
     Hi, Welcome to ${chalk.bgRed('𝑺𝑷𝑬𝑪𝑻𝑹𝑨')}
-    ${chalk.bgYellow('Here you can see the Specs of your system')}
+    ${chalk.bgYellow('A Javascript Quiz app')}
     
     ${chalk.bgBlue('HOW TO USE')}  
     ${chalk.bgGreen('You can use your Arrow Keys to select')}
@@ -56,7 +56,7 @@ async function askName() {
     type: 'input',
     message: 'What is your name?',
     default() {
-      return 'User';
+      return 'Player';
     },
   });
 
