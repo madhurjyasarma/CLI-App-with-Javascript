@@ -2,6 +2,19 @@
 
 A super fancy CLI tool. 
 
+## To Run - 
+You need to install [Node](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/)
+
+## Type -
+1.
+```sh
+npm install
+```
+2.
+```sh
+node index
+```
+
 
 ## Packages Used
 
